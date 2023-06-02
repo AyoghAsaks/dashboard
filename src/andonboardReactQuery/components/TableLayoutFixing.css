@@ -1,0 +1,63 @@
+/* CSS specifc to the line info component */
+
+/* ProductionActual, ProductionPlanned */
+.display-12 {
+    font-size: 9rem;
+    /*font-weight: 300;*/
+    line-height: 0.8;
+  }
+  
+  /* based on
+      https://bootstrapcreative.com/can-adjust-text-size-bootstrap-responsive-design/,
+      option 2
+  */
+  /* replaces class display-12 */
+  .text-responsive-big-numbers {
+    font-size: calc(100% + 6vw + 1vh);
+    line-height: 0.8;
+    vertical-align: middle !important;
+    text-align: center !important;
+    padding-bottom: 3px;
+  }
+  
+  /* replaces class display-2 */
+  .text-responsive-small-numbers {
+    font-size: calc(100% + 3vw + 1vh);
+    line-height: 1.2;
+    vertical-align: middle !important;
+    text-align: center !important;
+  }
+  
+  .text-responsive-tiny-numbers {
+    font-size: calc(100% + 1.75vw + 1vh);
+    line-height: 1.2;
+    vertical-align: middle !important;
+    text-align: center !important;
+  }
+  
+  .text-responsive-tinier-numbers {
+    font-size: calc(100% + 1.5vw + 1vh);
+    line-height: 1.2;
+    vertical-align: middle !important;
+    text-align: center !important;
+  }
+  
+  /* replaces class display-1 */
+  .text-responsive-medium-numbers {
+    font-size: calc(100% + 4vw + 1vh);
+    line-height: 1.2;
+    vertical-align: middle !important;
+    text-align: center !important;
+  }
+  
+  .line-header-title {
+      font-size: 6rem !important;
+  }
+  
+  @media only screen and (max-width: 1400px) {
+    .prodActualAti {
+      font-size: 3rem !important;
+      vertical-align: central !important;
+    }
+  }
+  
